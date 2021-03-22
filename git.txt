@@ -1,0 +1,45 @@
+git config --global user.name ""
+
+git status
+
+git init
+
+
+for stagging =>
+git add --a
+git add first.txt
+git add .
+
+For Commmiting =>
+git commit -m "initial commit"
+
+Direct commit =>
+git commit -a -m "" 
+
+Delete git from traking =>
+rm -rf .git
+
+git clone url
+
+To ignore file =>
+touch .gitignore
+/you/
+
+git diff
+
+git diff --staged
+
+git rm -f filename
+git mv file1 file2
+
+git restore --staged filenames
+
+git rm --cached file
+
+git log -p
+git log --stat
+git log --pretty=oneline,full,short
+git log --pretty=format:"%h --%an"
+git log --since=2.days,months,years
+git commit --amend  esc:wq
+
