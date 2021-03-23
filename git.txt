@@ -47,3 +47,4 @@ git commit --amend  esc:wq
 
 restore file content =>
 git checkout -- filename
+git checkout -f
