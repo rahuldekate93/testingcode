@@ -33,6 +33,7 @@ git rm -f filename
 git mv file1 file2
 
 git restore --staged filenames
+git restore filename
 
 git rm --cached file
 
