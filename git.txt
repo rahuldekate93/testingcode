@@ -44,3 +44,6 @@ git log --pretty=format:"%h --%an"
 git log --since=2.days,months,years
 git commit --amend  esc:wq
 
+
+restore file content =>
+git checkout -- filename
