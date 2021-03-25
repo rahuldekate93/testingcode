@@ -53,3 +53,6 @@ git checkout -f
 github repository
 git remote add origin git@github.com:rahuldekate93/testingcode.git
 git remote -v
+
+
+git config --global alias.st status
