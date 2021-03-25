@@ -48,3 +48,8 @@ git commit --amend  esc:wq
 restore file content =>
 git checkout -- filename
 git checkout -f
+
+
+github repository
+git remote add origin git@github.com:rahuldekate93/testingcode.git
+git remote -v
